@@ -12,7 +12,7 @@ class GameDataSource {
             var games = ArrayList<Game>()
 
             games.add(Game(1, "Mortal Kombat",
-                context.getDrawable(R.drawable.mortalkombat)!!, "Mortal Kombat é um jogo bem legal!", 4.5,
+                context.getDrawable(R.drawable.mortalkombat)!!, "Mortal Kombat é uma série de jogos criados pelo estúdio de Chicago da Midway Games. Em 2011, depois da falência da Midway, a produção de Mortal Kombat foi adquirida pela Warner Bros, tornando-se em seguida na Netherealm. A Warner detém atualmente os direitos da série.", 5.0f,
                 listOf(
                     Console(1, "PlayStation 3", "Sony", "2011-04-19"),
                     Console(2, "Snes", "Nintendo", "1990-12-05")
@@ -20,13 +20,13 @@ class GameDataSource {
             )
 
             games.add(Game(2, "Street Fighter",
-                context.getDrawable(R.drawable.street)!!, "Street Fighter III é um jogo muito foda de luta!", 4.5,
+                context.getDrawable(R.drawable.street)!!, "Street Fighter III é um jogo muito foda de luta!", 2.5f,
                 listOf(
                     Console(1, "Snes", "Nintendo", "1990-12-05")))
             )
 
             games.add(Game(3, "Black",
-                context.getDrawable(R.drawable.black)!!, "Black é o melhor jogo de tiro do Ps2, e também o mais dificil!", 5.0,
+                context.getDrawable(R.drawable.black)!!, "Black é o melhor jogo de tiro do Ps2, e também o mais dificil!", 4.0f,
                 listOf(
                     Console(1, "PlayStation 2", "Sony", "2000-04-04")))
             )

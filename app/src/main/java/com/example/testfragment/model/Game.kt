@@ -7,6 +7,6 @@ data class Game(
     var gameName: String,
     var gameImage: Drawable,
     var gameDescription: String,
-    var gameRating: Double,
+    var gameRating: Float,
     var consoles: List<Console>
 )
