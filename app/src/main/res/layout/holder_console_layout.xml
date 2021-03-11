@@ -13,7 +13,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorCard">
+        android:background="@color/colorcard">
 
         <TextView
             android:id="@+id/text_view_console_name"
@@ -26,7 +26,8 @@
             android:layout_marginBottom="8dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints"
+            android:textColor="@android:color/white"/>
 
         <ImageView
             android:id="@+id/image_game"
@@ -42,35 +43,34 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
             android:text="O PlayStation 4, ou PS4 (como é mais conhecido) é um video game da Sony lançado em 2013. O console tem três versões principais: fat, slim e Pro."
             app:layout_constraintTop_toBottomOf="@+id/image_game"
-            app:layout_constraintStart_toStartOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@android:color/white"/>
 
         <TextView
         android:id="@+id/text_view_console_data_lancamento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
             android:layout_marginStart="8dp"
+            android:textStyle="bold"
         android:text="Data de Lançamento"
-            android:textColor="@android:color/holo_red_light"
         app:layout_constraintTop_toBottomOf="@+id/text_view_console_description"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@android:color/white"/>
 
         <TextView
             android:id="@+id/text_view_console_fabricante"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginTop="10dp"
             android:layout_marginStart="8dp"
-            android:paddingBottom="8dp"
-            android:textSize="12dp"
             android:textStyle="bold"
             android:text="Fabricante"
             app:layout_constraintTop_toBottomOf="@+id/text_view_console_data_lancamento"
-            app:layout_constraintStart_toStartOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@android:color/white"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

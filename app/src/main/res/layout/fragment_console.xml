@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.HomeFragment"
-    android:background="@color/colorPrimary">
+    android:background="@color/colorBackground">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view_consoles"
@@ -13,6 +13,7 @@
         tools:listitem="@layout/holder_console_layout"/>
 
     <ImageButton
+        android:id="@+id/button_novo_console"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_margin="8dp"
